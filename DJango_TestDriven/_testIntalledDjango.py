@@ -1,4 +1,5 @@
 from selenium import webdriver
+
 browser = webdriver.Firefox()
 # verificar que existe um site ativo naquele endereço
 browser.get("http://localhost:8000")
